@@ -1,6 +1,6 @@
 # T10-Google-Pareto
 
-Site estático (HTML, CSS e JavaScript puros) de **www.dietaprimitiva.com.br**. Não precisa de build nem de instalação: basta publicar os arquivos como estão.
+Site estático (HTML, CSS e JavaScript puros) de **essencialpramim.com.br**. Não precisa de build nem de instalação: basta publicar os arquivos como estão.
 
 ## Estrutura
 
@@ -25,4 +25,4 @@ Cada pasta tem um `index.html`, então o site precisa ser servido a partir da **
 - **Cloudflare Pages / Netlify / Vercel:** conecte o repositório, deixe o comando de build vazio e o diretório de saída como `/` (raiz).
 - **AWS (S3 + CloudFront):** envie o conteúdo para a raiz do bucket e, para as subpastas abrirem, associe uma CloudFront Function que complete endereços terminados em `/` com `index.html`.
 
-Observação: as páginas apontam para as imagens a partir da raiz do domínio, então o site deve ficar na raiz (ex.: `https://www.dietaprimitiva.com.br/`), não numa subpasta.
+Observação: as páginas apontam para as imagens a partir da raiz do domínio, então o site deve ficar na raiz (ex.: `https://essencialpramim.com.br/`), não numa subpasta.
